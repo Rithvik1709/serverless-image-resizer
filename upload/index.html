@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Upload Image</title></head>
+<body>
+  <h2>Upload Image to S3</h2>
+  <form action="https://YOUR_S3_BUCKET.s3.amazonaws.com/" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="key" value="${filename}">
+    <input type="file" name="file">
+    <input type="submit" value="Upload">
+  </form>
+</body>
+</html>
