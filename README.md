@@ -28,12 +28,12 @@ serverless-image-resizer/
 git clone https://github.com/yourusername/serverless-image-resizer.git
 cd serverless-image-resizer
 ```
-3. Install Dependencies
+### 3. Install Dependencies
 ```bash
 cd lambda
 pip install -r requirements.txt -t .
 ```
-4. Build and Deploy
+### 4. Build and Deploy
 ```bash
 sam build
 sam deploy --guided
@@ -41,7 +41,7 @@ sam deploy --guided
 Enter a stack name (e.g., ImageResizerStack)
 Choose AWS region
 Confirm S3 bucket name for deployment artifacts
-5. Upload Image to Trigger Resize
+### 5. Upload Image to Trigger Resize
 Open upload/index.html and:
 Set the correct S3 bucket name
 Upload an image
