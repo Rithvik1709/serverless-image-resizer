@@ -9,13 +9,6 @@ Resize images automatically when uploaded to an S3 bucket, using AWS Lambda.
 - AWS SAM CLI
 - PIL (Pillow) for image processing
 
-## Folder Structure
-
-serverless-image-resizer/
-├── lambda/ 
-├── upload/ 
-├── template.yaml 
-
 
 ## Setup & Deploy
 
